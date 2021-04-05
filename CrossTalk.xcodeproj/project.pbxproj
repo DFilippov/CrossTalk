@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E063D05249AA5A800336E8C /* ChatScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E063D04249AA5A800336E8C /* ChatScrollView.swift */; };
+		3E063D07249AA65E00336E8C /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E063D06249AA65E00336E8C /* MessageView.swift */; };
+		3E063D09249AA9B900336E8C /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E063D08249AA9B900336E8C /* ToolbarView.swift */; };
+		3E0773A7249B960F00D2816E /* TranslationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0773A6249B960F00D2816E /* TranslationResponse.swift */; };
+		3E0773AA249BB1E600D2816E /* TranslationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0773A9249BB1E600D2816E /* TranslationService.swift */; };
 		3E6C6B6224926C26009110F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6C6B6124926C26009110F0 /* AppDelegate.swift */; };
 		3E6C6B6424926C26009110F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6C6B6324926C26009110F0 /* SceneDelegate.swift */; };
 		3E6C6B6624926C26009110F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6C6B6524926C26009110F0 /* ContentView.swift */; };
 		3E6C6B6824926C27009110F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E6C6B6724926C27009110F0 /* Assets.xcassets */; };
-		3E6C6B6B24926C27009110F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E6C6B6A24926C27009110F0 /* Preview Assets.xcassets */; };
 		3E6C6B6E24926C27009110F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E6C6B6C24926C27009110F0 /* LaunchScreen.storyboard */; };
+		3EB941C824956D2200587DA7 /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB941C724956D2200587DA7 /* DateFormatter+Extension.swift */; };
+		3EB941CD24956E9900587DA7 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB941CC24956E9900587DA7 /* Message.swift */; };
+		3EB941CF2495704F00587DA7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB941CE2495704F00587DA7 /* User.swift */; };
+		3EB941D22495715300587DA7 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB941D12495715300587DA7 /* ChatViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E063D04249AA5A800336E8C /* ChatScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScrollView.swift; sourceTree = "<group>"; };
+		3E063D06249AA65E00336E8C /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		3E063D08249AA9B900336E8C /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		3E0773A6249B960F00D2816E /* TranslationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationResponse.swift; sourceTree = "<group>"; };
+		3E0773A9249BB1E600D2816E /* TranslationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationService.swift; sourceTree = "<group>"; };
 		3E6C6B5E24926C26009110F0 /* CrossTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E6C6B6124926C26009110F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E6C6B6324926C26009110F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3E6C6B6524926C26009110F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E6C6B6724926C27009110F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3E6C6B6A24926C27009110F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3E6C6B6D24926C27009110F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E6C6B6F24926C27009110F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB941C724956D2200587DA7 /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
+		3EB941CC24956E9900587DA7 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		3EB941CE2495704F00587DA7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3EB941D12495715300587DA7 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E0547872499148C00085C93 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3E6C6B6524926C26009110F0 /* ContentView.swift */,
+				3E063D04249AA5A800336E8C /* ChatScrollView.swift */,
+				3E063D06249AA65E00336E8C /* MessageView.swift */,
+				3E063D08249AA9B900336E8C /* ToolbarView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3E054788249914A300085C93 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3E6C6B6124926C26009110F0 /* AppDelegate.swift */,
+				3E6C6B6324926C26009110F0 /* SceneDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		3E0773A8249BB1C500D2816E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3E0773A9249BB1E600D2816E /* TranslationService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		3E6C6B5524926C26009110F0 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +100,12 @@
 		3E6C6B6024926C26009110F0 /* CrossTalk */ = {
 			isa = PBXGroup;
 			children = (
-				3E6C6B6124926C26009110F0 /* AppDelegate.swift */,
-				3E6C6B6324926C26009110F0 /* SceneDelegate.swift */,
-				3E6C6B6524926C26009110F0 /* ContentView.swift */,
-				3E6C6B6724926C27009110F0 /* Assets.xcassets */,
-				3E6C6B6C24926C27009110F0 /* LaunchScreen.storyboard */,
-				3E6C6B6F24926C27009110F0 /* Info.plist */,
-				3E6C6B6924926C27009110F0 /* Preview Content */,
+				3E054788249914A300085C93 /* App */,
+				3EB941CB24956E8C00587DA7 /* Models */,
+				3E0773A8249BB1C500D2816E /* Services */,
+				3EB941CA24956E1400587DA7 /* Supporting Files */,
+				3EB941D02495714100587DA7 /* ViewModel */,
+				3E0547872499148C00085C93 /* Views */,
 			);
 			path = CrossTalk;
 			sourceTree = "<group>";
@@ -70,9 +113,38 @@
 		3E6C6B6924926C27009110F0 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				3E6C6B6A24926C27009110F0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3EB941CA24956E1400587DA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E6C6B6724926C27009110F0 /* Assets.xcassets */,
+				3E6C6B6C24926C27009110F0 /* LaunchScreen.storyboard */,
+				3E6C6B6F24926C27009110F0 /* Info.plist */,
+				3E6C6B6924926C27009110F0 /* Preview Content */,
+				3EB941C724956D2200587DA7 /* DateFormatter+Extension.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EB941CB24956E8C00587DA7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3EB941CC24956E9900587DA7 /* Message.swift */,
+				3EB941CE2495704F00587DA7 /* User.swift */,
+				3E0773A6249B960F00D2816E /* TranslationResponse.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3EB941D02495714100587DA7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3EB941D12495715300587DA7 /* ChatViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +206,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E6C6B6E24926C27009110F0 /* LaunchScreen.storyboard in Resources */,
-				3E6C6B6B24926C27009110F0 /* Preview Assets.xcassets in Resources */,
 				3E6C6B6824926C27009110F0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,8 +218,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E6C6B6224926C26009110F0 /* AppDelegate.swift in Sources */,
+				3E063D05249AA5A800336E8C /* ChatScrollView.swift in Sources */,
+				3EB941D22495715300587DA7 /* ChatViewModel.swift in Sources */,
+				3E063D07249AA65E00336E8C /* MessageView.swift in Sources */,
 				3E6C6B6424926C26009110F0 /* SceneDelegate.swift in Sources */,
+				3EB941CF2495704F00587DA7 /* User.swift in Sources */,
+				3E063D09249AA9B900336E8C /* ToolbarView.swift in Sources */,
+				3EB941CD24956E9900587DA7 /* Message.swift in Sources */,
+				3E0773A7249B960F00D2816E /* TranslationResponse.swift in Sources */,
+				3EB941C824956D2200587DA7 /* DateFormatter+Extension.swift in Sources */,
 				3E6C6B6624926C26009110F0 /* ContentView.swift in Sources */,
+				3E0773AA249BB1E600D2816E /* TranslationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +365,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CrossTalk/Preview Content\"";
 				DEVELOPMENT_TEAM = 67DZ326W5V;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CrossTalk/Info.plist;
@@ -305,7 +384,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CrossTalk/Preview Content\"";
 				DEVELOPMENT_TEAM = 67DZ326W5V;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CrossTalk/Info.plist;
